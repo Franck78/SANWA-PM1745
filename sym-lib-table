@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sanwa)(type Legacy)(uri ${KIPRJMOD}/sanwa.lib)(options "")(descr ""))
+)

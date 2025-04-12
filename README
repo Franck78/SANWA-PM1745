@@ -1,0 +1,57 @@
+This is a redraw of the actual ugly & only schematic for the SANWA PM1745
+
+
+It was made from two boards and the old schematic.
+
+IC103
+  can be two single optocouplers
+  PC817
+  or a dual
+  TLR621-2
+
+POWER Supply
+  One board has the PS dead.
+  The other one seems functionning.
+  Without the EHT, I took some measurement
+  but I'm absolutly unsure of them.
+  NEED from a functionnal board, at least
+  the B+ and the 12P
+  
+ZENER
+  Need real measures for all of them
+  D103
+  D106
+  D804
+  
+  
+FACTORY BODGES
+
+  D305 & D305
+    under the LA7832
+    Old schematics says 1SS83, probaly FR104 can do.
+
+  R899
+    Before the base of Q804, a 82 ohms resistor (1/8) is added on only
+    one of my two boards.
+    The trace is open with mask during pcb manufacturing. So, not visible 
+    cutter/tool ! But as for the diodes, they didn't do a real pcb revision.
+  
+
+CONNECTOR 176300-1
+  This is the wiring I have on my two boards.
+  The old schematic says otherwise
+
+I reverse engineered the two SMD modules.
+
+BX6341 (15 pins) does the black level stuff
+
+BX6341 (12 pins)
+
+This one is strange because what is supposed to be H & V inputs (pins 2, 8)
+are outputs.
+
+R9,R10,R11 form some loop so mesure is not good, need thinking !
+
+
+
+Send remarks please.
