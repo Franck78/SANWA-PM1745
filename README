@@ -52,6 +52,15 @@ are outputs.
 
 R9,R10,R11 form some loop so mesure is not good, need thinking !
 
+Partlist
+  found the source of the crappy schematic! Here, page 120 + Partlist (123) and procedures
+
+  https://www.gamesdatabase.org/Media/SYSTEM/Arcade//Manual/formated/Sega_Touring_Car_Championship_-_1996_-_Sega.pdf
+
+B+ adjustment sans signal  (page 152 Sega Touring)
+
+   fh ON CN503    76v (15Khz)
+   fh ON CN504   119v (24Khz)
 
 
 Send remarks please.
